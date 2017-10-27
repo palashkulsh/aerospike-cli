@@ -4,6 +4,7 @@ const Aerospike       = require('aerospike')
 const commander       = require('commander');
 var chalk             = require('chalk');
 
+//can move separate config
 let config = {
   hosts: [ { addr: '172.28.128.3', port: 3000 } ],
   policies:
